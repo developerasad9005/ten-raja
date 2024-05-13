@@ -140,8 +140,13 @@ document.getElementById('shop').addEventListener('click', function() {
    }
    else if(shop_name === "Costa Coffee"){
     document.getElementById('shopChange').style.marginLeft = '4px';
+   } 
+   else if(shop_name === "Domino's Pizza"){
+    document.getElementById('shopChange').style.marginLeft = '3px';
    }
-    
+   else if(shop_name === "Sainsbury's"){
+    document.getElementById('shopChange').style.marginLeft = '2px';
+   }
 })
 
 // document.getElementById('nameChanger').addEventListener('click', function () {
