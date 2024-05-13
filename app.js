@@ -138,6 +138,9 @@ document.getElementById('shop').addEventListener('click', function() {
    else if(shop_name === "Costco"){
     document.getElementById('shopChange').style.marginLeft = '35px';
    }
+   else if(shop_name === "Costa Coffee"){
+    document.getElementById('shopChange').style.marginLeft = '4px';
+   }
     
 })
 
