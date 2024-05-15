@@ -8,9 +8,8 @@ document.getElementById("submit").addEventListener("click", function () {
         let roundedNumber = parseFloat(randonResult.toFixed(2));
         return roundedNumber;
     }
-    let firstPrizeChange = randomNumber(721.21, 760.25);
-    let temp1 = randomNumber(145022, 205062);
-    let temp2 = randomNumber(856322, 906899);
+    let firstPrizeChange = randomNumber(123.21, 220.25);
+    
    
     // var randomOrder = Math.floor(Math.random() * 999999);
    
@@ -24,8 +23,7 @@ document.getElementById("submit").addEventListener("click", function () {
     // document.getElementById("random14").innerHTML = Math.floor(Math.random() * 9999);
     
     document.getElementById("firstPrizeChange").innerText = firstPrizeChange;
-    document.getElementById("temp1").innerText = temp1;
-    document.getElementById("temp2").innerText = temp2;
+
     
     // document.getElementById("fourPrizeChange").innerText = fourPrizeChange;
     document.getElementById("dateChange").innerText = date;
